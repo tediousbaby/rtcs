@@ -1,5 +1,5 @@
 #!/usr/bin/env supervisor
-var debug = require('debug')('my-application');
+var debug = require('debug')('[RTCS]');
 var app = require('../app');
 
 app.set('port', process.env.PORT || 3000);
